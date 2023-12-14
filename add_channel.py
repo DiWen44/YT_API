@@ -14,7 +14,7 @@ PARAMETERS:
 Returned video dicts have fields:
     name - name of video
     id - video ID
-    uploadDateTime - date & time of video publication. Stored in a string (In ISO 8601 format) in the JSON file and in the JSON response from the YouTube API, so should be converted to datetime when used.
+    uploadDateTime - Date & Time of video publication. Stored in a string (In ISO 8601 format) in the JSON file and in the JSON response from the YouTube API, so should be converted to datetime when used.
     duration - Video's duration. Stored in a string (In ISO 8601 format) in the JSON file and in the JSON response from the YouTube API, so should be converted to datetime when used.
     views - No. of views
     likes - No. of likes
