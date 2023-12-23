@@ -63,7 +63,7 @@ load_dotenv()
 API_KEY = os.getenv("API_KEY")
 
 # Opening & loading JSON from file
-file = open("data_test.json", "r+")
+file = open("data.json", "r+")
 channels = json.load(file)
 
 try:
